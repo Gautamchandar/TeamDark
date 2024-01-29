@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=1060&t=st=1706464012~exp=1706464612~hmac=11f58e0a10afedd3cc3670eb0634ee09e14f03a6fcfbc7ddaf1534c680ba1775");
+    border: 2px solid lightseagreen;
+}
+
+.container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container ul li {
+    list-style: none;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    animation: navbar .5s linear .1s;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: orangered;
+    animation: navbar .5s linear .1s;
+}
+
+@keyframes navbar {
+    0% {
+        transition: all;
+        transform: scale(2.0);
+        color: aqua;
+    }
+    100% {
+        color: chocolate;
+        transform: scale(1.0);
+    }
+}
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.5;
+}
